@@ -1,3 +1,5 @@
+#This is a change made within the Azure VM
+
 # Docker Getting Started Tutorial
 
 This tutorial has been written with the intent of helping folks get up and running
