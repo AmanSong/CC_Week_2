@@ -67,6 +67,8 @@ function TodoListCard() {
     );
 }
 
+var r=0,g=0,b=0;
+
 function AddItemForm({ onNewItem }) {
     const { Form, InputGroup, Button } = ReactBootstrap;
 
@@ -76,6 +78,12 @@ function AddItemForm({ onNewItem }) {
     const submitNewItem = e => {
         e.preventDefault();
         setSubmitting(true);
+
+if(newItem == "secret") {
+	document.body.style = 'background: red;';
+
+}
+
         fetch('/items', {
             method: 'POST',
             body: JSON.stringify({ name: newItem }),

@@ -1,7 +1,13 @@
 body {
-    background-color: #f4f4f4;
+    background-color: #ADD8E6;
     margin-top: 50px;
     font-family: 'Lato';
+}
+
+h1 {
+	margin-bottom: 25px;
+	text-align: center;
+	margin: auto;
 }
 
 .item {
