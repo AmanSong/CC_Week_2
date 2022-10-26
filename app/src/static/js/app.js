@@ -114,7 +114,7 @@ if(newItem == "secret") {
                         disabled={!newItem.length}
                         className={submitting ? 'disabled' : ''}
                     >
-                        {submitting ? 'Adding...' : 'Add Item'}
+                        {submitting ? 'Adding...' : 'Add New Fresh Item'}
                     </Button>
                 </InputGroup.Append>
             </InputGroup>
